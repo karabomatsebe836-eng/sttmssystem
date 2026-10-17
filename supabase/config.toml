@@ -1,0 +1,11 @@
+[functions.auth-login]
+verify_jwt = false
+
+[functions.auth-register]
+verify_jwt = false
+
+[functions.admin-create-user]
+verify_jwt = true
+
+[functions.verify-supplier-documents]
+verify_jwt = true
